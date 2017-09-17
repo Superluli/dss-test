@@ -15,7 +15,7 @@ public class Application extends WebMvcConfigurerAdapter {
 		SpringApplication.run(Application.class, args);
 	}
 	
-    @Bean
+    //@Bean
     public FilterRegistrationBean getAccessLogFilterRegistrationBean() {
         FilterRegistrationBean registration = new FilterRegistrationBean();
         registration.addUrlPatterns("/*");
